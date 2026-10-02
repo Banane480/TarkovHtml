@@ -1,0 +1,45 @@
+body {
+    background-image: url("assets/backgrounds/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.boite {
+    background-color: black;
+    border: 3px solid orange;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    display: block;
+    background-color: #222;
+    color: orange;
+    border: 1px solid orange;
+    padding: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: orange;
+    color: black;
+}
