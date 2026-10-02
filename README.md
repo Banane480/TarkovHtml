@@ -9,7 +9,7 @@ Projet de site web interactif a choix multiples sur le theme du jeu Escape from 
 - pages/scene02.html : Les voies ferrees et le sniper Scav
 - pages/scene03.html : Le grand hangar et le pilleur hostile
 - pages/scene04.html : La station-service abandonnee
-- pages/scene05.html : La caisse d'armes lourdes
+- pages/scene05.html : La caisse d'armes lourdes (hangar)
 - pages/scene06.html : Le chantier en construction
 - pages/scene07.html : Embuscade et passe-partout
 - pages/scene08.html : La reserve medicale
@@ -25,12 +25,12 @@ Projet de site web interactif a choix multiples sur le theme du jeu Escape from 
   - scene02.html -> kia.html | scene04.html | scene06.html
   - scene03.html -> scene05.html | scene07.html | scene06.html
   - scene04.html -> scene08.html | scene09.html | kia.html
-  - scene05.html -> scene10.html | scene04.html
-  - scene06.html -> scene10.html | scene09.html
-  - scene07.html -> scene05.html | scene06.html
-  - scene08.html -> scene10.html | victoire.html
-  - scene09.html -> scene05.html | scene10.html | kia.html
-  - scene10.html -> victoire.html | kia.html
+  - scene05.html -> scene10.html | scene04.html | scene03.html
+  - scene06.html -> scene10.html | scene09.html | scene02.html | scene03.html
+  - scene07.html -> scene05.html | scene06.html | scene03.html
+  - scene08.html -> scene10.html | victoire.html | scene04.html
+  - scene09.html -> victoire.html (Dorms V-Ex) | scene10.html | scene06.html | kia.html | scene04.html
+  - scene10.html -> victoire.html | kia.html | scene08.html | scene06.html
   - kia.html & victoire.html -> index.html
 
 Aucun cul-de-sac. Toutes les pages disposent de liens retour et de continuite.
